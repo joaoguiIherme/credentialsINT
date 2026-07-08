@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: credentialsint
+Version: 0.1.0
+Summary: Credential & sensitive-data web scanner (OSINT)
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-cov>=5; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: bandit; extra == "dev"
+Dynamic: license-file

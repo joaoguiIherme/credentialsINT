@@ -80,10 +80,10 @@ class CredentialScanner:
         'aws_key': 'high',
         'private_key': 'high',
         'api_key': 'high',
-        'bearer_token': 'high',
+        'bearer_token': 'high',  # nosec B105 - confidence level, not a secret
         'credit_card': 'high',
         'database_url': 'medium',
-        'password': 'medium',
+        'password': 'medium',  # nosec B105 - confidence level, not a secret
         'webhook_url': 'medium',
         'email': 'low',
         'username': 'low',
