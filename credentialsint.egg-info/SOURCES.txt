@@ -1,9 +1,0 @@
-LICENSE
-README.md
-credential_scanner.py
-pyproject.toml
-credentialsint.egg-info/PKG-INFO
-credentialsint.egg-info/SOURCES.txt
-credentialsint.egg-info/dependency_links.txt
-credentialsint.egg-info/requires.txt
-credentialsint.egg-info/top_level.txt
