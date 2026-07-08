@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/joaoguiIherme/credentialsINT/actions/workflows/ci.yml/badge.svg)](https://github.com/joaoguiIherme/credentialsINT/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen.svg)](#tests)
 
 🔍 **Credential & Sensitive-Data Web Scanner** — an OSINT tool that crawls a target website and flags exposed credentials, API keys, tokens, and other secrets in HTML, inline JavaScript, and comments.
 
