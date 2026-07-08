@@ -1,5 +1,7 @@
 # credentialsINT
 
+[![CI](https://github.com/joaoguiIherme/credentialsINT/actions/workflows/ci.yml/badge.svg)](https://github.com/joaoguiIherme/credentialsINT/actions/workflows/ci.yml)
+
 🔍 **Credential & Sensitive-Data Web Scanner** — an OSINT tool that crawls a target website and flags exposed credentials, API keys, tokens, and other secrets in HTML, inline JavaScript, and comments.
 
 > ⚠️ **Authorized use only.** Run this only against systems you own or have explicit written permission to test.
