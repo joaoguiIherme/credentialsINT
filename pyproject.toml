@@ -1,0 +1,44 @@
+[project]
+name = "credentialsint"
+version = "0.1.0"
+description = "Credential & sensitive-data web scanner (OSINT)"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-cov>=5",
+    "ruff",
+    "mypy",
+    "bandit",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q --cov=credential_scanner --cov-report=term-missing --cov-fail-under=80"
+testpaths = ["."]
+python_files = ["test_*.py"]
+markers = [
+    "unit: fast isolated logic tests",
+    "integration: network or multi-component tests",
+]
+
+[tool.coverage.run]
+source = ["credential_scanner"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "def main\\(",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
